@@ -11,6 +11,16 @@ import static com.alipay.sofa.jraft.util.BytesUtil.writeUtf8;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * Ref: https://www.sofastack.tech/projects/sofa-jraft/jraft-rheakv-user-guide/
+ *
+ * 目标：
+ * 1. 跟进写入链路
+ * 2. 模仿实现；利用JRaft 框架 专注分布式业务开发
+ *
+ *
+ */
+
 public class HelloWorldKV {
     static final ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
     static  RheaKVStoreOptions opts = null;
