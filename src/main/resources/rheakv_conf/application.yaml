@@ -24,10 +24,10 @@ storeEngineOptions:
     # 本机地址, 默认自动获取本机host name, 也可以自己设置
     ip: 127.0.0.1
     # 端口, 这个是必须配置的选项, 存储层提供rpc服务的监听端口
-    port: 8181
+    port: 8182
 
 # 集群列表中所有节点的地址列表
-initialServerList: 127.0.0.1:8181
+initialServerList: 127.0.0.1:8182
 # demo 先启动单机
 # initialServerList: 127.0.0.1:8181,127.0.0.1:8182,127.0.0.1:8183
 

@@ -31,7 +31,7 @@ public class HelloWorldKV {
 
         opts = mapper.readValue(new File(path), RheaKVStoreOptions.class);
 
-        if (rheaKVStore.init(opts)) {
+        if (rheaKVStore.init(opts)) {//启动嵌入式KV服务
             final byte[] value = writeUtf8("hello world!!!");
             rheaKVStore.bPut("hello", value);
 
@@ -39,6 +39,7 @@ public class HelloWorldKV {
             // ...
             // Have fun !!!
         }
+        System.exit(0);
 
     }
 
