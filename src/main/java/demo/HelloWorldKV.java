@@ -26,6 +26,7 @@ public class HelloWorldKV {
     static  RheaKVStoreOptions opts = null;
     static final RheaKVStore rheaKVStore = new DefaultRheaKVStore();
 
+    //TODO:初始化多个region
     public static void main(String args[]) throws IOException {
         String path = "/Users/yangjiaqi/Documents/hugegraph_concurrency/RaftDemo/src/main/resources/rheakv_conf/application.yaml";
 
