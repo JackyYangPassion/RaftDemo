@@ -11,3 +11,10 @@ JRaft 相关框架
 
 [OpenRaft](https://github.com/datafuselabs/openraft)  
 Rust 编写的Raft 框架  
+
+
+2024-04-02 
+当前状态：理解JRaft 基本框架概念，能够快速看懂基于此框架开发的应用
+
+TODO: 
+1. 基于JRaft 进行开发应用 
